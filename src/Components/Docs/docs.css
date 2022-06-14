@@ -5,9 +5,12 @@
 }
 
 h1 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     color: #676666;
+    width: 100vw;
+    text-align: center;
+    border-bottom: 1px solid #676666;
 }
 
 button {
@@ -27,17 +30,28 @@ button:active {
     display: flex;
     justify-content: center;
     width: 100%;
+    flex-wrap: wrap;
 }
 
-p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 20px;
-    padding: 5px;
-    width: 200px;
+h6 {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    margin: 15px;
+    font-size: 17px;
+    padding:17px;
+    padding-top: 15px;
+    width: 220px;
     height: 50px;
     color: white;
-    background-color: #676666;
+    background-color: #676666;cursor: pointer;
+
+    
+}
+.descript {
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 12px;
 }

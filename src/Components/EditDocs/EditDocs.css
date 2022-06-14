@@ -1,0 +1,13 @@
+.text-editor {
+    box-shadow: 0px 0px 2px  black;
+}
+.head {
+    border-bottom: 1px solid black;
+}
+.quill {
+    padding:10px
+}
+.ql-container.ql-snow {
+    border: none !important;
+    min-height: 80vh;
+}
