@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Typography, Button, Box, Modal } from '@mui/material';
+import { Box, Modal } from '@mui/material';
 import './Modal.css'
 
 const style = {
@@ -22,7 +22,6 @@ export default function ModalComponent({
     addData,
 }) {
 
-
   const handleClose = () => setOpen(false)
 
 	return(
@@ -33,20 +32,24 @@ export default function ModalComponent({
 			aria-labelledby="modal-modal-title"
 			aria-describedby="modal-modal-description"
 			>
-					<Box sx={style}>
-							<input 
-									placeholder='Add a Title'
-									className='add-input'
-									onChange={(event) =>  setTitle(event.target.value)}
-									value={title}
-							/>
-							<div className='button-container'>
-									<button className='add-docs' 
-									onClick={addData}>
-											Create
-									</button>
-							</div>
-					</Box>
+				<Box sx={style}>
+					<input 
+						placeholder='Add a Title'
+						className='add-input'
+						onChange={(event) =>  setTitle(event.target.value)}
+						value={title}
+					/>
+					<div className='button-container'>
+						<button className='add-docs' 
+						onClick={addData}>
+								Create
+						</button>
+						<button className='cancel'
+						onClick={handleClose}>
+							Cancel
+						</button>
+					</div>
+				</Box>
 			</Modal>
 		</div>
 	);

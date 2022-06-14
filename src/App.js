@@ -1,15 +1,16 @@
 import './App.css';
 import Docs from './Components/Docs/docs'
-import { app, database } from './Components/Firebase/firebaseConfig'
+import EditDocs from './Components/EditDocs/EditDocs'
+import { database } from './Components/Firebase/firebaseConfig';
+import { Routes, Route } from 'react-router-dom';
 
-function App() {
+export default function App() {
 
   return (
-    <div className="App">
+    <Routes>
+      <Route path='/' element={<Docs database={database} />} />
+      <Route path='/editDocs/:id' element={<EditDocs database={database}/>} />
+    </Routes>
 
-      <Docs database={database}/>
-    </div>
   );
 }
-
-export default App;
