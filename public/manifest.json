@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Doc-luck",
+  "name": "Doc-luck! Write documents with friends, family, and colleagues!",
 
   "start_url": ".",
   "display": "standalone",
