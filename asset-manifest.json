@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/doc-luck/static/css/main.d55bb427.css",
-    "main.js": "/doc-luck/static/js/main.b6f29d66.js",
+    "main.js": "/doc-luck/static/js/main.8ef5ba4c.js",
     "static/js/787.03d77475.chunk.js": "/doc-luck/static/js/787.03d77475.chunk.js",
     "index.html": "/doc-luck/index.html",
     "main.d55bb427.css.map": "/doc-luck/static/css/main.d55bb427.css.map",
-    "main.b6f29d66.js.map": "/doc-luck/static/js/main.b6f29d66.js.map",
+    "main.8ef5ba4c.js.map": "/doc-luck/static/js/main.8ef5ba4c.js.map",
     "787.03d77475.chunk.js.map": "/doc-luck/static/js/787.03d77475.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d55bb427.css",
-    "static/js/main.b6f29d66.js"
+    "static/js/main.8ef5ba4c.js"
   ]
 }
